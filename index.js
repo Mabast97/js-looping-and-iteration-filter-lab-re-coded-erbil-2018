@@ -30,7 +30,12 @@ const drivers = [
     hometown: 'Tampa Bay' }
 ];
 
-function matchName(arr,)
+function matchName(arr, name)
+{
+  arr.filter(function(items){
+    return arr[items] == 'name'
+  });
+}
 
 
 
