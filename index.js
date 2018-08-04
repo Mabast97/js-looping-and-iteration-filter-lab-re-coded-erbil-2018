@@ -1,6 +1,3 @@
-// Code your solution in this file
-const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby'];
-
 function findMatching (arr, wanted)
 {
   return arr.filter(function(driverName)
@@ -14,6 +11,26 @@ function fuzzyMatch (arr, letters)
     return drivers.slice(0, letterLength) === letters
   })
 }
+
+const drivers = [
+  {
+    name: 'Bobby',
+    hometown: 'Pittsburgh' },
+  {
+    name: 'Sammy',
+    hometown: 'New York' } ,
+  {
+    name: 'Sally',
+    hometown: 'Cleveland' },
+  {
+    name: 'Annette',
+    hometown: 'Los Angeles' },
+  {
+    name: 'Bobby',
+    hometown: 'Tampa Bay' }
+];
+
+
 
 
 
