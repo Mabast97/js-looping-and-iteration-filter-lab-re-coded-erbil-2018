@@ -7,5 +7,5 @@ function findMatching (arr, wanted)
   { return driverName.toLowerCase() === wanted.toLowerCase(); }) ;
 }
 
-function 
+function fuzzyMatch ()
 
