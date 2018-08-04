@@ -7,5 +7,11 @@ function findMatching (arr, wanted)
   { return driverName.toLowerCase() === wanted.toLowerCase(); }) ;
 }
 
-function fuzzyMatch ()
+function fuzzyMatch (arr, letters)
+{
+  let letterLength = letters.length;
+  return arr.filter(function(drivers){
+    
+  })
+}
 
