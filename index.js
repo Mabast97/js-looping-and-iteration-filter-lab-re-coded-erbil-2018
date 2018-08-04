@@ -33,7 +33,7 @@ const drivers = [
 function matchName(arr, name)
 {
   arr.filter(function(items){
-    return items.name.toLowerCase() === arr.name;
+    return items.name.toLowerCase() === name;
   });
 }
 
