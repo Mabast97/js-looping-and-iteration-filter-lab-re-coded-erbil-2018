@@ -11,8 +11,7 @@ function fuzzyMatch (arr, letters)
 {
   let letterLength = letters.length;
   return arr.filter(function(drivers){
-    let newA = arr.slice(0,letterLength);
-    return newA[drivers] === arr[letters];
+    return arr.slice(0, letterLength) === arr[letters]
   })
 }
 
