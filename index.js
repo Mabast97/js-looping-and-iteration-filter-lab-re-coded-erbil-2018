@@ -30,8 +30,13 @@ const drivers = [
     hometown: 'Tampa Bay' }
 ];
 
-function matchName (list, name) {
-  return list.filter(function (driver) {
-    return driver.name.toLowerCase() === name.toLowerCase();
+
+function matchName(arr, name)
+{
+ return arr.filter(function(items){
+    return items.name.toLowerCase() === name.toLowerCase();
   });
 }
+
+
+
