@@ -3,5 +3,5 @@ const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby'];
 
 function findMatching (arr, wanted)
 {
-  
+  return 
 }
